@@ -1,0 +1,506 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/*---------общиие стили*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.photo {
+    width: 84px;
+    height: 84px;
+}
+
+.name {
+    font-size: 18px;
+    line-height: 26px;
+    color: #1B1A1A;
+}
+
+.position {
+    font-size: 14px;
+    line-height: 14px;
+    color: #645C55;
+
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 38px;
+    white-space: nowrap;
+ }  
+/*--------------блок header---------------*/
+
+header {
+    height: 90px;
+    
+}
+
+.container-header {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 32px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header img{
+    width: 220px;
+    height: 19px;
+    align-self: center;
+}
+
+header nav {
+    width: 584.81px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    padding: 0 0 2px 16px;
+}
+
+header li {
+    display: inline;
+    font-size: 15px;
+    line-height: 24px;
+    margin-right: 29px;
+    color: #1B1A1A;
+    letter-spacing: 0%;
+    
+}
+
+
+
+header button {
+    width: 155px;
+    height: 46px;
+    padding: 2px 9px 1px 6px;
+    border: none;
+    border-radius: 14px;
+    background-color: #1B1A1A;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-------------------Первая секция---------------------*/
+
+.one_section {
+    width: 100%;
+    height: 720px;
+    background-color: #ECE7E4;
+}
+
+.one_section_text {
+    display: inline-block;
+    width: 600px;
+    height: 566px;
+    padding: 137px 0 0 100px; 
+}
+
+.one_section_text h2 {
+    font-size: 64px;
+    line-height: 70.4px;
+    color: #1B1A1A;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.readMore {
+    text-decoration: none;
+    color: #1B1A1A;
+    font-size: 16px;
+    display: inline-block;
+    letter-spacing: 0.4px;
+    margin-top: 40px;
+    margin-left: 25px;
+    font-family: 'Poppins';
+}
+
+/*-------------------Вторая секция---------------------*/
+
+.two_section {
+    width: 100%;
+    height: 782px;
+    
+} 
+
+
+.two_section_block {
+    width: 768px;
+    height: 582px;
+    display: flex;
+    gap: 137px;
+    padding-top: 96px;
+    padding-left: 337px;
+
+}
+
+
+
+ .two_section_block_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5px;
+ }
+
+.person_info {
+    display: flex;
+ }
+
+ .person_info figcaption {
+    width: 169px;
+    height: 100px;
+    display: block;
+    line-height: 0;
+    padding-top: 28px;
+    padding-left: 30px;
+ }
+
+ .photo {
+    padding-top: 7px;
+ }
+
+ /*-------------------Третья секция---------------------*/
+
+.three_section {
+    width: 100%;
+    height: 600px;
+    background: url(./images/three_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.block_three_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 600px;
+    padding-left: 1080px;
+}
+
+
+/*-------------------четвёртая секция---------------------*/
+
+.fo_section {
+    height: 581px;
+}
+
+.fo_section_block {
+    width: 1200px;
+    height: 381px;
+    padding-top: 100px;
+    padding-left: 121px;
+}
+
+.fo_section_block_card {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 46px;
+
+}
+
+.fo_section_card {
+    width: 378.66px;
+    height: 259px;
+    text-align: center;
+}
+
+.fo_section_text {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.fo_name {
+    font-size: 17px;
+    line-height: 24px;
+    color: #403E3B;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
+
+.fo_section_block h2 {
+    font-size: 39px;
+    line-height: 42px;
+    margin-top: 14px;
+}
+
+
+/*-------------------пятая секция---------------------*/
+.fife_section {
+    width: 100%;
+    height: 600px;
+    background: url(./images/fife_block_phone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*-------------------шестая секция---------------------*/
+.six_section {
+    background-color: #403E3B;
+    height: 410px;
+}
+
+.six_content {
+    width: 1168px;
+    height: 290px;
+    display: flex;
+    gap: 172px;
+    align-items: center;
+    padding-top: 70px;
+    padding-left: 136px;
+}
+
+.six_content_text {
+    width: 460px;
+    height: 160px;
+    
+}
+
+.six_content_image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 96px;
+    grid-row-gap: 74px;
+    place-items: center;
+}
+
+.six_content_text p {
+    margin-top: 13px;
+    font-size: 15px;
+}
+
+/*-------------------седьмая секция---------------------*/
+
+.seven_section {
+    width: 100%;
+    height: 600px;
+    background: url(./images/phone_seven.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*-------------------восьмая секция---------------------*/
+
+.eight_section {
+    width: 100%;
+    height: 918px;
+    background-color: #F7F7F7;
+}
+
+.eight_content {
+    padding-top: 114px;
+    padding-left: 136px;
+
+}
+
+
+.eight_content h2 {
+    font-size: 39px;
+    line-height: 42px;
+    color: #1B1A1A;
+    margin-bottom: 15px;
+    
+}
+
+.eight_content p {
+    font-size: 24px;
+    line-height: 30px;
+    color: #645C55;
+}
+
+.eight_content_images {
+    width: 1168px;
+    height: 460px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+    margin-left: 2px;
+    
+}
+
+.eight_content span {
+    display: block;
+    width: 180px;
+    height: 46px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    text-align: center;
+    margin-top: 48px;
+    margin-left: 498px;
+}
+
+
+/*-------------------девятая секция---------------------*/
+
+.neinSection {
+    height: 592px;
+}
+
+.neinContent {
+    display: flex;
+    width: 1168;
+    height: 392px;
+    padding: 96px 136px;
+}
+
+.text {
+    display: inline-block;
+    width: 379px;
+    height: 392px;
+    margin-right: 17.02px;
+}
+
+.text > p {
+    font-size: 15px;
+    Line-height: 24px;
+    color: #645C55;
+    margin-bottom: 41px;
+}
+
+.neinTitle {
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+    margin-bottom: 14px;
+}
+
+.text > span {
+    display: inline-block;
+    width: 121px;
+    height: 46px;
+    text-align: center;
+    padding-left: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px   ;
+}
+
+.cards {
+    width: 773.33px;
+    height: 392px;
+    display: flex;
+
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 36px;
+}
+.column1 .description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30.33px;
+    padding-right: 30px;
+}
+.column2 .description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 29.66px;
+    padding-right: 30px;
+}
+.photo img {
+    width: 84px;
+    height: 84px;
+    border-radius: 64px;
+    object-fit: cover;
+    border: 3px solid #CEC4BC;
+    box-sizing: border-box;
+}
+
+#name {
+    font-size: 18px;
+    line-height: 26px;
+    color: #1B1A1A;
+    padding-top: 4px;
+}
+
+#jobPosition {
+    font-size: 14px;
+    line-height: 14px;
+    color: #645C55;
+    margin-top: -4px;
+}
+
+#name_1 {   
+    font-size: 17px;
+    line-height: 26px;
+    color: #1B1A1A;
+    padding-top: 5px;
+}
+
+.column1 {
+    margin-right: 122px;
+}
